@@ -5,23 +5,47 @@ body {
     justify-content: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: #000;
+    color:#fff;
 }
 
 #main {
     width: 100%;
     height: 100vh;
+    overflow: hidden;
+}
+
+#main #top {
+    width: 100%;
+}
+
+#main #top #title {
+    text-align: center;
+    color: #d6d4d4;
+    font-weight: bolder;
+    margin: 50px 0 20px 0;
+    font-size: 50px;
+}
+
+#main #top #sub {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#main #content {
     display: flex;
+    margin: 17vh 20vw;
 }
 
-#main .images {
-    margin: 20px auto;
+#main #content .images {
+    margin: 0 auto;
 }
 
-#main .images a {
+#main #content .images a {
     text-decoration: none;
 }
 
-#main .images a img {
+#main #content .images a img {
     width: 200px;
     height: 200px;
     border: 2px solid #a3a3a3;
@@ -29,28 +53,27 @@ body {
     opacity: 0.2;
 }
 
-#main .images a:hover img {
+#main #content .images a:hover img {
     opacity: 1;
-    border: 4px solid #b04747;
+    border: 4px solid #4784b0;
     width: 230px;
     height: 230px;
 }
 
-#main .images a p {
+#main #content .images a p {
     text-align: center;
     color: #fff;
-    font-size: 14px;
+    font-size: 15px;
 }
 
-#main .images a:hover p {
-    color: #4784b0;
+#main #content .images a:hover p {
+    color: #b04747;
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 #master {
     width: 100%;
-    color: #fff; 
 }
 
 #master #top {
