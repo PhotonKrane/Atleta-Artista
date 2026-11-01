@@ -1,0 +1,119 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#main {
+    width: 100%;
+    min-height: 100vh; /* Ocupa 100% da altura da tela ou mais se o conteúdo crescer */
+    display: flex;
+    background-color: #000;
+}
+
+#main #m_shadows {
+    margin: 20px auto;
+}
+
+#main #m_shadows a {
+    text-decoration: none;
+}
+
+#main #m_shadows a img {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #a3a3a3;
+    border-radius: 180px;
+    opacity: 0.2;
+}
+
+#main #m_shadows a img:hover {
+    opacity: 1;
+    border: 4px solid #b04747;
+    width: 230px;
+    height: 230px;
+}
+
+#main #m_shadows a p {
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+}
+
+#master {
+    width: 100%;
+    background-color: #000;
+    color: #fff; 
+}
+
+#master #top {
+    
+}
+
+#master #top a {
+
+}
+
+#master #content {
+    width: 100%;
+    text-align: center;
+}
+
+#master #content #char {
+
+}
+
+#master #content #galery {
+
+}
+
+#master #content #videos {
+
+}
+
+#master #content #conquest {
+
+}
+
+#master #content #conquest button {
+
+}
+
+#master #content #conquest button #title_conq {
+    
+}
+
+#master #content #conquest #conquistas {
+    visibility: hidden;
+}
+
+#master #content #curiosidades {
+
+}
+
+#master #content #curiosidades button {
+
+}
+
+#master #content #curiosidades button #title_cur {
+
+}
+
+#master #content #curiosidades #cur {
+    visibility: hidden;
+}
+
+#master #footer {
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    border-top: 4px solid #a3a3a3;
+    background-color: #F7F7F7;
+}
+
+#master #footer img {
+    margin: 0 auto;
+    width: 550px;
+}
