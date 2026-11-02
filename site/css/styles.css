@@ -98,7 +98,18 @@ body {
 }
 
 #master #content #videos {
+    display: flex;
+}
 
+#master #content #videos .video {
+    margin: 0 auto;
+}
+
+#master #content #videos .video video {
+    width:450px;
+    height: 300px;
+    border: 2px solid #a3a3a3;
+    border-radius: 30px;
 }
 
 #master #content #conquest {
