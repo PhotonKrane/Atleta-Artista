@@ -149,6 +149,11 @@ body {
     margin-bottom: 90px;
 }
 
+#master #content #photos img {
+    border-radius: 30px;
+    margin-left: 30px;
+}
+
 
 #master #content #conquest {
 
