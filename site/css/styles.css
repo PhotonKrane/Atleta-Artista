@@ -216,7 +216,12 @@ body {
     background-color: #480000;
 }
 
-#master #footer img {
+#master #footer #corinthians {
+    margin: 0 auto;
+    width: 250px;
+}
+
+#master #footer #deathbat {
     margin: 0 auto;
     width: 500px;
 }
