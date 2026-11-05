@@ -76,10 +76,6 @@ body {
     width: 100%;
 }
 
-#master #top {
-    
-}
-
 #master #top a {
     background-color: #ad0909a1;
     border: none;
@@ -167,10 +163,6 @@ body {
     height: 330px;
 }
 
-#master #content #conquest {
-
-}
-
 #master #content #conquest button {
     background-color: #ad0909a1;
     border: none;
@@ -190,7 +182,7 @@ body {
 
 #master #content #conquest #conquistas {
     visibility: hidden;
-    font-size: 24px;
+    font-size: 22px;
     text-align: left;
     margin: 15px 0 70px 40px;
 }
@@ -218,38 +210,50 @@ body {
 
 #master #content #curiosidades #cur {
     visibility: hidden;
-    font-size: 24px;
+    font-size: 22px;
     text-align: left;
     margin: 15px 0 70px 40px;
 }
 
-#master #text p {
+#master #info {
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
+
+
+#master #info p {
     font-size: 30px;
     font-weight: bolder;
     margin-bottom: 20px;
     text-align: center;
 }
 
-#master #albuns {
-    margin-bottom: 70px;
-    margin-top: 70px;
-    display: flex;
-}
-
-
-
-#master #albuns img {
+#master #info .img {
     margin-bottom: 70px;
     border-radius: 30px;
     margin-left: 30px;
     display: flex;
     margin: 0 auto;
+    display: flex;;
 }
 
-#master #albuns img:hover {
-    border: 2px solid #ad0909a1;
+
+#master #info .img a {
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+
+#master #info .img a img {
+    border-radius: 30px;
+    margin: 0 auto;
     width: 200px;
-    height: 200px;
+    height: 220px;
+}
+
+#master #info .img a img:hover {
+    width: 210px;
+    height: 230px;
 }
 
 #master #footer {
@@ -260,12 +264,12 @@ body {
     background-color: #480000;
 }
 
-#master #footer #corinthians {
-    margin: 0 auto;
-    width: 250px;
-}
-
 #master #footer #deathbat {
     margin: 0 auto;
     width: 500px;
+}
+
+#master #footer #corinthians {
+    margin: 0 auto;
+    width: 250px;
 }
