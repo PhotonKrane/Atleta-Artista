@@ -120,10 +120,6 @@ body {
     font-size: 24px;
 }
 
-#master #content #galery {
-
-}
-
 #master #content #videos {
     display: flex;
 }
@@ -140,17 +136,35 @@ body {
 }
 
 #master #content #photos {
-    width: auto;
-    height: auto;
-    margin-top: 90px;
-    margin-bottom: 90px;
+    width: 100%;
+    height: 350px;
+    margin: 90px 0;
 }
 
-#master #content #photos img {
+#master #content #photos p {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#master #content #photos #galery {
+    width: 100%;
+    display: flex;
+}
+
+#master #content #photos #galery img {
     border-radius: 30px;
-    margin-left: 30px;
+    margin: 0 auto;
+    width: 200px;
+    height: 300px;
 }
 
+#master #content #photos #galery img:hover {
+    border: 2px solid #ad0909a1;
+    width: 230px;
+    height: 330px;
+}
 
 #master #content #conquest {
 
